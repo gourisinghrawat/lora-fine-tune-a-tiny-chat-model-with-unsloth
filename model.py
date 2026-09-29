@@ -86,8 +86,11 @@ def count_trainable_parameters(model):
             sum+=p.numel()
     return sum
 
-# Step 8 - trainable_fraction (not yet solved)
-# TODO: implement
+# Step 8 - trainable_fraction
+def trainable_fraction(trainable_count, total_count):
+    # TODO: return the fraction of parameters that are trainable.
+    return(trainable_count/total_count)
+    pass
 
 # Step 9 - build_instruction_examples (not yet solved)
 # TODO: implement
